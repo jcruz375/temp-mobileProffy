@@ -74,7 +74,10 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         justifyContent: 'center',
         alignItems: 'center',
+        marginLeft: 8,
         marginRight: 8,
+        marginBottom:24
+
     },
 
     favorited: {

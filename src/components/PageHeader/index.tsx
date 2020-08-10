@@ -29,7 +29,11 @@ const PageHeader: React.FunctionComponent<PageHeaderProps> = ({ title, headerRig
                     </BorderlessButton>
                     <Image source={logoImg} resizeMode="contain" />
                 </View>
-                <Text style={styles.title}>{title}</Text>
+                <View style={styles.header}>
+                    <Text style={styles.title}>{title}</Text>
+                    {headerRight}
+                </View>
+                {children}
             </View>
         </>
     )
